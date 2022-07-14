@@ -1,3 +1,6 @@
 [submodule ".vim"]
 	path = .vim
 	url = https://github.com/DevonJenkins/vim-configs.git
+[submodule ".config"]
+	path = .config
+	url = https://github.com/DevonJenkins/.config.git
