@@ -1,8 +1,10 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+#If you come from bash you might have to change your $PATH.
 
 # Path to your oh-my-zsh installation.
+export PATH="/Users/devonjenkins/anaconda3/bin:$PATH"
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
+source ~/.bash_profile
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -78,9 +80,9 @@ plugins=(git tmux)
 # User configuration
 #
 ZSH_TMUX_AUTOSTART=true
-#ZSH_TMUX_AUTOCONNECT=true
+ZSH_TMUX_AUTOCONNECT=false
 ZSH_TMUX_AUTOQUIT=true
-ZSH_TMUX_FIXTERM=true
+
 source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
